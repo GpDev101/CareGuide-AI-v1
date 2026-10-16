@@ -1,0 +1,23 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Java / Maven
+backend/target/
+*.class
+.idea/
+*.iml
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local files and logs
+storage/
+logs/
+*.log
+.DS_Store
